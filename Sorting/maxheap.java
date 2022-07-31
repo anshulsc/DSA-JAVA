@@ -34,7 +34,7 @@ public class maxheap
          }
     }
 
-    static void build_heap(int Arr[])
+    static void buildMaxHEap(int Arr[])
     {
         int N = Arr.length - 1;
         for(int i = N/2 ; i>0 ; i--)
@@ -54,7 +54,7 @@ public class maxheap
     static void heap_sort(int Arr[])
     {
         int N = Arr.length - 1;
-        build_heap(Arr);
+        buildMaxHEap(Arr);
 
         for(int i = N ; i > 1 ; i--)
         {
